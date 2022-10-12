@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+
+*{
+    border: 0px solid black;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    background: gray;
+    border: 1px solid red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: italic solid;
+}
+
+#table_data {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #table_data td, #table_data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #table_data tr:nth-child(even){background-color: #f2f2f2;}
+
+  #table_data tr:hover {background-color: #ddd;}
+
+  #table_data th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #d10606;;
+      color: white;
+    }
